@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+h1 {
+    color: darksalmon;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 3px solid white;
+    width: 900px;
+    display: inline-block;
+}
+
+h2 {
+    color: white;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.div-header{
+    position: relative;
+}
+
+.div-texto p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.div-texto a {
+    background-color: darksalmon;
+    color: white;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 25px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 12px;
+    margin: 50px;
+}
+
+.div-texto{
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.div-cards{
+    /* border: 1px solid blue; */
+    margin: 50px;
+    
+}
+
+.card-text{
+    color: darkgrey;
+}
+
+#img-cabecalho{
+    width: 100%;
+    filter: grayscale(100%);
+    /* position: absolute; */
+    clip: rect(200px, 100%, 0px, 100%);
+    top: -200px;
+}
+
+.btn-primary{
+    background-color: darksalmon;
+    border: none;
+    margin-left: 30px;
+}
+
+.btn-primary:hover{
+    background-color: rgb(172, 88, 60);
+    transform: scale(1.05);
+}
+
+.div-carrossel{
+    border: 3px solid salmon;
+    width: 100%;
+    height: 200px;
+}
+
+.fundo-carrossel{
+    width: 100%;
+    height: 200px;
+    background-color: darksalmon;
+}
+
+
+.minha-label{
+    background-color: darksalmon;
+    color: white;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 25px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding-top: 12px;
+    margin: 50px;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+
+
+
+
+
+
+
+

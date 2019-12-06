@@ -1,0 +1,13 @@
+.img-container{
+    width: 100%;
+    border: 3px solid blue;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    position: absolute;
+    left: 200px;
+    overflow: hidden;
+}
+
